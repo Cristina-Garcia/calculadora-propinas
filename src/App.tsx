@@ -33,7 +33,7 @@ function App() {
             <TipPercentageForm  setTip={setTip} tip={tip}/>
             <OrderTotal order={order} tip={tip} placeOrder={placeOrder}/>
             </>
-          ):<p className="text-3xl text-gray-700">No hay pedidos</p>
+          ):<p className="text-3xl text-gray-700 text-center">No hay pedidos</p>
         }
 
       </div>
